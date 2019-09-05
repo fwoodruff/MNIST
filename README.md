@@ -1,7 +1,7 @@
 # MNIST
 Neural Network for MNIST labelled image recognition
 
-This is a project I made in 2018 to build a neural network.
+This is a project I made in 2018 to build a neural network from scratch.
 
 A list of images is converted into an array of vector of pixel brightnesses __p__<sub>i</sub> where each i corresponds to a different image.
 
