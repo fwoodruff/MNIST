@@ -19,6 +19,6 @@ For some value of **z**, ξ will map image __p__<sub>i</sub> to a vector very cl
 
 So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying __z__.
 
-This program then solves df/d**z** = 0 using the Newton-Raphson Method, having calculated df/d**z** by hand.
+This program then solves df/d**z** = 0 using the Newton-Raphson Method, where I first calculated dξ/d**M** and dξ/d**R** with pen and paper.
 
 Having found **z**, this program applies ξ to new test images and can label them with 98.7% accuracy.
