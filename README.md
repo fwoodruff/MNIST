@@ -15,7 +15,7 @@ norm(__x__) ≡ __x__/|__x__|
 
 where __R__ and __M__ are matrices. Let's also define a vector **z** where each element maps to some element of {__M__, __R__} bijectively.
 
-For some value of **z**, ξ will map image __p__<sub>i</sub> to a vector very close to __q__<sub>i</sub>. This happens when __p__<sub>i</sub>) ≈ 1;
+For some value of **z**, ξ will map image __p__<sub>i</sub> to a vector very close to __q__<sub>i</sub>. This happens when **q**<sub>i</sub>.ξ(**p**<sub>i</sub>) ≈ 1;
 
 So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying __z__.
 
