@@ -21,8 +21,4 @@ For some value of **z**, ξ will map image __p__<sub>i</sub> to a vector very cl
 
 So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying __z__.
 
-We can solve df/d**z** = 0 using the Newton-Raphson Method.
-
-**z**<sub>m+1</sub> = **z**<sub>m</sub> - f(**z**<sub>m</sub>)/ [df/d**z**(__z__<sub>m</sub>)]
-
-I found df/d**z** on pen and paper, and solved the above equation in this program.
+This program then solves df/d**z** = 0 using the Newton-Raphson Method.
