@@ -13,7 +13,7 @@ We define:
 
 norm(__x__) ≡ __x__/|__x__|
 
-ξ(__p__<sub>i</sub>) ≡ norm( e<sup>norm(__R__ e<sup>__M__.__p__<sub>i</sub></sup>)</sup>)
+ξ(__p__<sub>i</sub>) ≡ norm( e<sup>norm(__R__.e<sup>__M__.__p__<sub>i</sub></sup>)</sup>)
 
 where __R__ and __M__ are matrices. Let's also define a vector **z** where each element maps to some element of {__M__, __R__} bijectively.
 
