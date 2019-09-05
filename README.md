@@ -1,7 +1,7 @@
 # MNIST
 Basic image recognition program using MNIST labelled images.
 
-A list of images is converted into an array of vector of pixel brightnesses __p__<sub>i</sub> where each i corresponds to a different image.
+A list of images is converted into an array containing vectors of pixel brightnesses: __p__<sub>i</sub> where each i corresponds to a different image.
 
 Each __q__<sub>i</sub> is a unit vector of dimension n, where n is the number of labels.
 
