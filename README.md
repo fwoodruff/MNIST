@@ -11,14 +11,14 @@ We define:
 
 norm(__x__) ≡ __x__/|__x__|
 
-ξ(__p__<sub>i</sub>) ≡ norm( e<sup>norm(__R__.e<sup>__M__.__p__<sub>i</sub></sup>)</sup>)
+ξ(**M**,**R**; **p**<sub>i</sub>) ≡ norm( e<sup>norm(__R__.e<sup>__M__.__p__<sub>i</sub></sup>)</sup>)
 
-where __R__ and __M__ are matrices.
+where **R** and **M** are matrices.
 
-For some values of **R** and **M**, ξ will map images __p__<sub>i</sub> to vectors very close to __q__<sub>i</sub>. This happens when **q**<sub>i</sub>.ξ(**p**<sub>i</sub>) ≈ 1.
+For some values of **R** and **M**, ξ will map images **p**<sub>i</sub> to vectors very close to **q**<sub>i</sub>. This happens when **q**<sub>i</sub>.ξ(**M**,**R**; **p**<sub>i</sub>) ≈ 1.
 
-So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying __z__.
+So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying **R** and **M**.
 
-This program then solves df/d**z** = 0 using the Newton-Raphson Method, where I first calculated dξ/d**M** and dξ/d**R** with pen and paper.
+I calculated expressions for  df<sub>i</sub>/d**M** and df<sub>i</sub>/d**R** and used this program to perform a number of rounds of the Newton-Raphson Method.
 
-Having found **z**, this program applies ξ to new test images and can label them with 98.7% accuracy.
+Having optimised **R** and **M**, this program applies ξ to new test images and can label them with 98.7% accuracy.
