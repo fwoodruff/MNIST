@@ -24,7 +24,7 @@ where **R** and **M** are matrices.
 
 For some values of **R** and **M**, **ξ** will map images **p**<sub>i</sub> to vectors very close to **q**<sub>i</sub>. This happens when **q**<sub>i</sub>.**ξ**(**M**,**R**; **p**<sub>i</sub>) ≈ 1.
 
-So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.ξ(__p__<sub>i</sub>)) by varying **R** and **M**.
+So the goal is to maximise f = Σ<sub>i</sub> log(__q__<sub>i</sub>.**ξ**(__p__<sub>i</sub>)) by varying **R** and **M**.
 
 I calculated expressions for  ∂f<sub>i</sub>/∂**M** and ∂f<sub>i</sub>/∂**R** and used this program to perform a number of rounds of the Newton-Raphson Method for each image.
 
