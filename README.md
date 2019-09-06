@@ -13,7 +13,7 @@ but let's define:
 
 norm(__x__) ≡ __x__/|__x__|,
 
-**ξ**(**M**,**R**; **p**<sub>i</sub>) ≡ norm( e<sup>norm(__R__.e<sup>__M__.__p__<sub>i</sub></sup>)</sup>)
+**ξ**(**M**,**R**; **p**<sub>i</sub>) ≡ norm( e<sup>norm(__R__.e<sup>__M__.__p__<sub>i</sub></sup>)</sup>),
 
 where **R** and **M** are matrices.
 
