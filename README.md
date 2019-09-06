@@ -7,9 +7,9 @@ Each image __p__<sub>i</sub> has a corresponding label __q__<sub>i</sub>, a unit
 
 Now that we have a way to interpret images and labels as vectors, we need a function that takes 'image' __p__ to 'label' __q__.
 
-One option is **q** = **W**.**p** where **W** is a dim(**q**)×dim(**p**) matrix.
+One option is **q** = **W**.**p** where **W** is a matrix.
 
-Let's define:
+but let's define:
 
 norm(__x__) ≡ __x__/|__x__|,
 
